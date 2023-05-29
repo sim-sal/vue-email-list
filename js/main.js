@@ -10,8 +10,9 @@ createApp({
     mounted(){
         console.log("Che succede amico?!");
 
-        // richiamo la libreria axios
-        axios
+        for (i = 0; index <= 10; i++) {
+            // richiamo la libreria axios
+            axios
             .get('https://flynn.boolean.careers/exercises/api/random/mail')
             .then(
                 
@@ -25,5 +26,7 @@ createApp({
                 console.log(this.listaEmail);
                 
             });
+            
+        }
     }
 }).mount("#myapp");
