@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#card{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(194, 168, 255);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+#title{
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+#card > ol{
+    text-align: left;
+    list-style-type: none;
+}

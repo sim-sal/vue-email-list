@@ -11,6 +11,7 @@ createApp({
         console.log("Che succede amico?!");
 
         for (i = 0; i < 10; i++) {
+            
             // richiamo la libreria axios
             axios
             .get('https://flynn.boolean.careers/exercises/api/random/mail')

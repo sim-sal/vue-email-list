@@ -11,16 +11,31 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- title -->
     <title>Vue Email List</title>
 </head>
 <body> 
 
     <div id="myapp">
-        <h2>Lista email:</h2>
-        <ol>
-            <li v-if="listaEmail.length === 10" v-for="email in listaEmail">{{email}}</li>
-        </ol>
+
+        <div id="card">
+
+           <div id="title"><h2>Lista email:</h2></div>
+           <hr>
+        
+            <ol>
+                <li v-if="listaEmail.length === 10" v-for="email in listaEmail">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    {{email}}
+                </li>
+            </ol>
+
+        </div>
+
+        
     </div>
     
 
