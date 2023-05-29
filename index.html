@@ -19,7 +19,7 @@
     <div id="myapp">
         <h2>Lista email:</h2>
         <ol>
-            <li v-for="email in listaEmail">{{email}}</li>
+            <li v-if="listaEmail.length === 10" v-for="email in listaEmail">{{email}}</li>
         </ol>
     </div>
     

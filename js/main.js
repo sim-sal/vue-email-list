@@ -19,9 +19,11 @@ createApp({
                 item => {
                 // console.log(item.data.response);
 
+                // genero email random
                 this.newEmail = item.data.response;
                 console.log(this.newEmail);
 
+                // inserisco l'email generata nell'array vuoto
                 this.listaEmail.push(this.newEmail);
                 console.log(this.listaEmail);
                 
